@@ -96,8 +96,7 @@
         }
 
         .char-img {
-            width: 150px;
-            height: 150px;
+            width: 100%;
             object-fit: contain;
             position: absolute;
             top: 0;
@@ -112,20 +111,20 @@
 
             0%,
             100% {
-                transform: translateX(-50%) translateY(-50px) scale(1.3) rotate(0deg);
+                transform: translateX(-50%) translateY(-30px) scale(1) rotate(0deg);
             }
 
             25% {
-                transform: translateX(-50%) translateY(-50px) scale(1.3) rotate(-5deg);
+                transform: translateX(-50%) translateY(-30px) scale(1) rotate(-5deg);
             }
 
             75% {
-                transform: translateX(-50%) translateY(-50px) scale(1.3) rotate(5deg);
+                transform: translateX(-50%) translateY(-30px) scale(1) rotate(5deg);
             }
         }
 
         .swiper-slide-active .char-card:hover .char-img {
-            transform: translateX(-50%) translateY(-50px) scale(1.3);
+            transform: translateX(-50%) translateY(-30px) scale(1);
             filter: drop-shadow(0 20px 20px rgba(0, 0, 0, 0.3));
             opacity: 1;
             animation: wiggle 1s infinite ease-in-out 0.4s;
